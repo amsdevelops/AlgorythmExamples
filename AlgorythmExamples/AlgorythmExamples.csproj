@@ -60,10 +60,15 @@
   <ItemGroup>
     <Compile Include="Chess.cs" />
     <Compile Include="Fibonacci.cs" />
+    <Compile Include="IArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="CustomPower.cs" />
     <Compile Include="LuckyNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FactorArray.cs" />
+    <Compile Include="ExtendableArray.cs" />
+    <Compile Include="VectorArray.cs" />
+    <Compile Include="SingleArray.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
