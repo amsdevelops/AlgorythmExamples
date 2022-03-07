@@ -58,9 +58,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SimpleSorters\AbstractSwapperSorter.cs" />
+    <Compile Include="SimpleSorters\ShellSort.cs" />
+    <Compile Include="SimpleSorters\InsertionSorter.cs" />
+    <Compile Include="SimpleSorters\BubbleSorter.cs" />
     <Compile Include="Chess.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="IArray.cs" />
+    <Compile Include="SimpleSorters\IIntegerSorter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="CustomPower.cs" />
     <Compile Include="LuckyNumbers.cs" />
@@ -84,6 +89,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SimpleSorters\Sorter Comparation.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
