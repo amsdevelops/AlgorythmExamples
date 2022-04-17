@@ -7,6 +7,17 @@ class Program
     {
     }
 
+    static int[] CreateArray(int capacity)
+    {
+        Random random = new Random();
+        int[] array = new int[capacity];
+        for (int i = 0; i < capacity; i++)
+        {
+            array[i] = random.Next(capacity);
+        }
+        return array;
+    }
+
     static void PopulateArray(int num, IArray<int> array, Stopwatch stopwatch)
     {
         for (int i = 0; i < num; i++)
