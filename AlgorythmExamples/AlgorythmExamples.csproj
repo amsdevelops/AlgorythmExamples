@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractSwapperSorter.cs" />
+    <Compile Include="FastSort\MergeSorter.cs" />
+    <Compile Include="FastSort\QuickSorter.cs" />
     <Compile Include="SelectionHeapSorters\HeapSorter .cs" />
     <Compile Include="SimpleSorters\ShellSort.cs" />
     <Compile Include="SimpleSorters\InsertionSorter.cs" />
