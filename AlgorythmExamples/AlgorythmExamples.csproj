@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chess.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="CustomPower.cs" />
