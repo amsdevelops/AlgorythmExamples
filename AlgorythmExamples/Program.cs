@@ -5,6 +5,14 @@ class Program
 {
     static void Main(string[] args)
     {
+        IIntegerSorter sorter = new MergeSorter();
+        Stopwatch sw = Stopwatch.StartNew();
+        sorter.Sort(CreateArray(100), sw);
+        sorter.Sort(CreateArray(1_000), sw);
+        sorter.Sort(CreateArray(10_000), sw);
+        sorter.Sort(CreateArray(100_000), sw);
+        sorter.Sort(CreateArray(1_000_000), sw);
+        Console.ReadKey();
     }
 
     static int[] CreateArray(int capacity)
